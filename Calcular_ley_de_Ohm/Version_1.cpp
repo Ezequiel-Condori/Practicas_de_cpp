@@ -1,3 +1,4 @@
+//La consigna es hacer una calculadora que calcule la Ley de Ohm
 #include <iostream>
 #include <string>
 using namespace std;
