@@ -9,7 +9,7 @@ void ResistLED(float Valor_1, float Valor_2){
     }
     float IntensLED=0.02;
     float VoltFinal=Valor_1-Valor_2;
-    cout<<"La Resistencia que deberia usar es de valor: "<<VoltFinal/IntensLED<<"Ohm's\n\n";
+    cout<<"La Resistencia que deberia usar es de valor: "<<VoltFinal/IntensLED<<" Ohm's\n\n";
 }
 
 int main(){
@@ -19,7 +19,7 @@ int main(){
         float VoltLED;
         string Opcion;
 
-        cout<<"Hola nuevamente, con este programa, usted podra saber cual es la Resistencia ideal para su LED, basandonos en el Voltaje de fuente, y el tipo de color del LED.\n Todo se realiza mediante este calculo:   Vfuente-Vled\n R=-----------\n      Iled\n\nPrimero, ingrese el color de su LED:\n\n-INFRAROJO - 1.5V\n-ROJO - 2V\n-NARANJA - 2.1V\n-AMARILLO - 2.1V\n-VERDE_ESTANDAR - 2.2V\n-VERDE_ESMERALDA(BRILLO_ALTO) - 3.2V\n-AZUL - 3.2V\n-BLANCO - 3.3V\n-ULTRAVIOLETA - 3.4V\n\nLos valores de Voltaje del LED se usa un Voltaje tipico o aproximando, y usamos una Intensidad tipica de 20mA\n\nRecuerde que, en todos nuestros programas, usted puede salir escribiendo CERRAR";
+        cout<<"Hola nuevamente, con este programa, usted podra saber cual es la Resistencia ideal para su LED, basandonos en el Voltaje de fuente, y el tipo de color del LED.\n Todo se realiza mediante este calculo:\n   Vfuente-Vled\n R=-----------\n      Iled\n\nPrimero, ingrese el color de su LED:\n\n-INFRAROJO - 1.5V\n-ROJO - 2V\n-NARANJA - 2.1V\n-AMARILLO - 2.1V\n-VERDE_ESTANDAR - 2.2V\n-VERDE_ESMERALDA - 3.2V\n-AZUL - 3.2V\n-BLANCO - 3.3V\n-ULTRAVIOLETA - 3.4V\n\nLos valores de Voltaje del LED se usa un Voltaje tipico o aproximando, y usamos una Intensidad tipica de 20mA\n\nRecuerde que, en todos nuestros programas, usted puede salir escribiendo CERRAR\n";
         cin>>Opcion;
         if(Opcion=="CERRAR"){
             cout<<"Cerrando programa...";
