@@ -1,4 +1,4 @@
-//La consigna es hacer una calculadora que calcule la Ley de Ohm
+//La consigna es hacer una calculadora que calcule la Ley de Ohm, desde este ejercicio en adelante, el codigo esta hecho por mi cuenta, solo QUIZAS temga alguna pequeña ayuda, pero solo son pequeñas partes :^
 #include <iostream>
 #include <string>
 using namespace std;
