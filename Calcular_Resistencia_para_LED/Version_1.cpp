@@ -6,6 +6,7 @@ using namespace std;
 void ResistLED(float Valor_1, float Valor_2){
     if(Valor_1<=Valor_2){
         cout<<"Ese Voltaje no va a alcanzar para encender su LED, pruebe usando una mayor cantidad :]";
+        return;
     }
     float IntensLED=0.02;
     float VoltFinal=Valor_1-Valor_2;
